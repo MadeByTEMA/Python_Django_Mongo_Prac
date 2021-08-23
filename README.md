@@ -1,2 +1,2 @@
 # Python_Django_Prac
-Python_Django_Practice_Repository
+Python_Django_MongoDB_Practice_Repository
