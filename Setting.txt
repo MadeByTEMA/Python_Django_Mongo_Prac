@@ -1,0 +1,317 @@
+Django 1. (폐기1)
+검색을 통해 알려준대로 따라 했더니,
+기본적인 설정과, Django server 띄우는 것은 잘 되는데
+# html template 끌어오는 방법과,
+다른 api 호출 방법을 모르겠다.
+
+Django 2. (폐기2)
+검색을 통해 이제 따라하지 않고
+약간의 변형을 해도 정상적으로 페이지가 나타나는 것이 보여짐.
+# admin에 정상적으로 로그인 할 수 없다.
+로그인 시 오류가 발생함.
+
+
+
+
+# Python Django Framework & Mongo DB Practice
+## Django
+Django란 Python Web Server Framework이다.
+
+### Django 특징
+Django는 application 단위로 페이지를 개발한다.
+만들어진 application은 프로젝트 폴더에 넣었다 뺐다, 할 수 있어서 개발 속도에 아주 큰 도움을 준다.
+원하는 기능이 있다면, 구글링을 통해 해당 application을 프로젝트 폴더에 넣어 사용할 수 있기 때문이다.
+
+### Django MTV
+다른 frame work의 경우 MVC(Model-View-Controller)의 디자인 패턴을 적용하는데 반해,
+Django는 MTV(Model-Template-View)의 구조를 가진다.
+
+### Django MTV
+HTTP Request        →   urls(urls.py)
+                            ↓
+model(models.py)    ↔   view(views.py)  →   Response
+                            ↑
+                        template(html)
+
+MVC모델의 경우 각각의 구성 요소가 다른 요소들에게 영향을 미치지 않아야 한다.
+Model(모델) : 데이터를 가지고 있으며, 데이터를 처리하는 로직
+
+### Django 이해
+프로젝트에서 application을 넣고 빼는 작업은 urls을 연결시켜주는 작업과 같다.
+아래와 같이 config라는 이름으로 프로젝트 폴더를 생성하였고,
+ex) $ django-admin startproject config
+아래와 같이 reserve라는 이름으로 application 폴더를 생성하였다면,
+$ python manage.py startapp reserve
+프로젝트 폴더(config) 안 urls.py에 특정 uri로 넘어오게 되면,
+해당 uri에 맞는 application가 호출되게, urlpatterns에 추가하고,
+해당 application 안 (reserve) urls.py에 해당 url이 호출 됐을 때 할 작업을 나타내면 된다.
+
+application 안에, models.py가 정의되어 있으면
+이 또한 project 모델 스키마에 application 모델을 연결해주어야 한다.
+application model을 활성화 하려면, 우선 application부터 APPS에 등록 시켜줘야 한다.
+config.setting.py에 INSTALLED_APPS = [] 목록안에, 만든 reserve apps의 class를 적는다.
+'reserve.apps.ReserveConfig',
+
+등록한 후 Migration 진행해 주어야 한다.
+그래야 기존의 project db모델에, application db모델을 이식한다.
+
+종합하면, application을 project에 추가할 때,
+해당 application을 사용할 urls을 연결해주는 작업과
+해당 application에 정의되어 있는 models를 연결해주는 작업을 한다고 이해하면 쉽다.
+
+### Django의 장점
+Django는 admin 페이지를 기본적으로 제공해 준다.
+해당 admin 페이지를 사용하는 유저가 superuser 이며,
+그래서 Django에는 superuser와 관련된 command가 있는 것이다.
+
+### Practice Setting
+OS          : window 10
+Python      : 3.9.6
+Django      : 3.2.6
+MongoDB     : 5.0.2
+IDE         : PyCharm
+
+### Install command
+Django 설치
+$ pip install Django==3.2.6
+$ pip install djangorestframework
+
+MongoDB 설치 (Django)
+$ pip install djongo
+
+CORS 설치 (API 통신)
+$ pip install django-cors-headers
+
+Server Run
+$ python manage.py runserver
++ python manage.py runserver 8020
++ 위와 같이 포트를 변경할 수 있다.(ex 8020)
+http://localhost:8020/
+
+### Django basic file
+settings.py
++ 데이터 베이스 설정, 템플릿 항목 설정, 정적 파일 항목 설정, 애플리케이션 등록, 타임존 지정 등 수정
+
+models.py
++ DB에서 가져온 data를 클래스화 하는 모델
+
+urls.py
++ URL과 View를 매핑해준다.
+
+views.py
++ Logic 담당
+
+## Django Project Create
+
+$ django-admin startproject config
+ + project 생성
+
+$ cd web_prac
+
+## Application 생성
+$ python manage.py startapp reserve
+ + rest api 호출을 위한, reserve라는 폴더를 만듬(app명 변경해도 됨)
+
+## superuser 생성
+$ python manage.py createsuperuser
+
+## rest API 설정 (settings.py에 추가)
+INSTALLED_APPS = []에 아래 추가
+'rest_framework',
+'reserve.apps.ReserveConfig',
+ + rest_framework : rest api 사용을 위해 추가해주어야 하고,
+ + reserve.apps.ReserveConfig : 위에 reserve라는 폴더로 start를 했기 때문에, 그 폴더 안에 apps.py 안에 ReserveConfig라는 이미 만들어져 있는 함수를 setting에 추가해준다.
+
+# project 설정
+## setting.py 설정
+### TIME ZONE & 언어 설정 (settings.py)
+LANGUAGE_CODE = 'ko-kr'
+TIME_ZONE = 'Asia/Seoul'
+
+### 포트 관련 설정 (settings.py에 추가)
+MIDDLEWARE = [] 에 아래 추가
+CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_WHITELIST = (
+    'http://localhost:8020',
+)
++ CORS_ORIGIN_ALLOW_ALL : True면 모든 포트 허용
++ CORS_ORIGIN_WHITELIST : 해당 포트로 오는 request는 허용
+
+### DB연결(mongo DB)
+DATABASES = {
+    'default': {
+        'ENGINE': 'djongo',
+        'NAME': 'test_db',
+        'HOST': '127.0.0.1',
+        'PORT': 27017,
+    }
+}
+
+#application 설정
+## models.py 설정
+reserve 안의 models에 model을 작성한 후, migrations을 생성 해준다.
+
+from django.db import models
+
+class ReCafe(models.Model):
+    room_excape_cafe_id = models.IntegerField(default=0)
+    room_excape_cafe_name = models.CharField(max_length=200)
+    room_excape_cafe_value = models.CharField(max_length=200)
+
+class ReTheme(models.Model):
+    re_cafe = models.ForeignKey(ReCafe, on_delete=models.CASCADE)
+    room_excape_theme_id = models.IntegerField(default=0)
+    room_excape_theme_name = models.CharField(max_length=200)
+    room_excape_theme_value = models.CharField(max_length=200)
+    room_excape_cafe_price = models.CharField(max_length=200)
+    room_excape_cafe_etc1 = models.CharField(max_length=200)
+    room_excape_cafe_etc2 = models.CharField(max_length=200)
+    room_excape_cafe_etc3 = models.CharField(max_length=200)
+    room_excape_cafe_etc4 = models.CharField(max_length=200)
+    room_excape_cafe_etc5 = models.CharField(max_length=200)
+
+class ReTime(models.Model):
+    re_theme = models.ForeignKey(ReTheme, on_delete=models.CASCADE)
+    room_excape_time_id = models.IntegerField(default=0)
+    room_excape_time_name = models.CharField(max_length=200)
+    room_excape_time_value = models.CharField(max_length=200)
+
+### migrations 생성(models.py 작성 후)
+$ python manage.py makemigrations reserve
+이후 reserve 폴더 안에 migrations 폴더에 파일이 생성된 것을 확인할 수 있다.
+make migrations가 완료된 것이다.
+makemigrations는 application의 model에 대한 변화를 기록하는 것이다.
+
+$ python manage.py migrate reserve
+migrations을 생성했으면, 이제 migration을 해준다.
+migrate는 makemigrations의 변화 기록을 참고하여
+실제로 프로젝트 모델 스키마에 application 모델 변화 사항을 반영해주는 커멘드이다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## serializer를 통해 model 관리 (migration 끝낸 후)
+reserve 폴더 안에 serializer.py를 생성
+
+from rest_framework import serializers
+from reserve.models import Tutorial
+
+
+class TutorialSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Tutorial
+        fields = ('id',
+                  'title',
+                  'description',
+                  'published')
+
+
+## urls 설정
+url 예시는 다음과 같이 할 예정
+ex)
+/api/tutorials: GET, POST
+/api/tutorials/:id: GET, POST
+/api/tutorials/published: GET
+
+reserve 폴더 안에 urls.py를 아래와 같이 작성한다.
+
+from django.conf.urls import url
+from reserve import views
+
+urlpatterns = [
+    url(r'^api/tutorials$', views.tutorial_list),
+    url(r'^api/tutorials/(?P<pk>[0-9]+)$', views.tutorial_detail),
+    url(r'^api/tutorials/published$', views.tutorial_list_published)
+]
+
+또한 project 자체의 urls.py도 수정한다. (Python_Django_Mongo_Prac 안에 urls.py)
+
+from django.conf.urls import url, include
+from django.contrib import admin
+
+urlpatterns = [
+    url(r'^admin/', admin.site.urls),
+    url(r'^', include('reserve.urls')),
+]
+
+## view 설정
+reserve views.py도 아래와 같이 수정한다.
+
+from django.shortcuts import render
+
+from django.http.response import JsonResponse
+from rest_framework.parsers import JSONParser
+from rest_framework import status
+
+from reserve.models import Tutorial
+from reserve.serializers import TutorialSerializer
+from rest_framework.decorators import api_view
+
+@api_view(['GET', 'POST'])
+def tutorial_list(request):
+    if request.method == 'GET':
+        tutorials = Tutorial.objects.all()
+        title = request.GET.get('title', None)
+        if title is not None:
+            tutorials = tutorials.filter(title__icontains=title)
+        tutorials_serializer = TutorialSerializer(tutorials, many=True)
+        return JsonResponse(tutorials_serializer.data, safe=False)
+        # 'safe=False' for objects serialization
+    elif request.method == 'POST':
+        tutorial_data = JSONParser().parse(request)
+        tutorial_serializer = TutorialSerializer(data=tutorial_data)
+        if tutorial_serializer.is_valid():
+            tutorial_serializer.save()
+            return JsonResponse(tutorial_serializer.data, status=status.HTTP_201_CREATED)
+        return JsonResponse(tutorial_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+@api_view(['GET', 'POST'])
+def tutorial_detail(request, pk):
+    try:
+        tutorial = Tutorial.objects.get(pk=pk)
+    except Tutorial.DoesNotExist:
+        return JsonResponse({'message': 'The tutorial does not exist'}, status=status.HTTP_404_NOT_FOUND)
+    if request.method == 'GET':
+        tutorial_serializer = TutorialSerializer(tutorial)
+        return JsonResponse(tutorial_serializer.data)
+    elif request.method == 'POST':
+        tutorial_data = JSONParser().parse(request)
+        tutorial_serializer = TutorialSerializer(tutorial, data=tutorial_data)
+        if tutorial_serializer.is_valid():
+            tutorial_serializer.save()
+            return JsonResponse(tutorial_serializer.data)
+        return JsonResponse(tutorial_serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+@api_view(['GET'])
+def tutorial_list_published(request):
+    tutorials = Tutorial.objects.filter(published=True)
+    if request.method == 'GET':
+        tutorials_serializer = TutorialSerializer(tutorials, many=True)
+        return JsonResponse(tutorials_serializer.data, safe=False)
+
+## TEMPLATES 사용
+setting.py안에 TEMPLATES = [] 안에 'DIRS' 안에 아래와 같이 수정한다.
+'DIRS': [os.path.join(BASE_DIR, 'templates')],
+
+STATIC 파일을 수동으로 지정해주기 위해서 setting.py안에 STATICFILES_DIRS을 아래와같이 추가한다.
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+
+
+## media 루트 추가 (파일 사용 시 등을 위해)
+setting.py안에 media 루트를 추가한다.(media외 다른 이름으로 다른 용도로 사용 해도 상관 없다.)
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

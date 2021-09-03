@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78846db8-cba7-4553-b7ff-2d66302cc460" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/폐기/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/Python_Django_Mongo_Prac/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/Python_Django_Mongo_Prac/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/Python_Django_Mongo_Prac/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/Python_Django_Mongo_Prac/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/Python_Django_Mongo_Prac/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/Step.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/rest_api/MongoDbManager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/rest_api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/rest_api/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/rest_api/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/rest_api/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/rest_api/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/rest_api/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/rest_api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/rest_api/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/rest_api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/rest_api/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/.github/workflows/main.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/css/nucleo-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/css/nucleo-svg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/css/soft-ui-dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/css/soft-ui-dashboard.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/css/soft-ui-dashboard.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/fonts/nucleo-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/fonts/nucleo-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/fonts/nucleo-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/fonts/nucleo-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/fonts/nucleo-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/fonts/nucleo.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/fonts/nucleo.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/fonts/nucleo.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/fonts/nucleo.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/bruce-mars.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/curved-images/curved0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/curved-images/curved1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/curved-images/curved14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/curved-images/curved6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/curved-images/curved8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/curved-images/white-curved.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/down-arrow-dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/down-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/home-decor-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/home-decor-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/home-decor-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/illustrations/rocket-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/ivana-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/ivancik.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/kal-visuals-square.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/logo-ct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/logo.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/logos/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/logos/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/marie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/shapes/waves-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/small-logos/icon-sun-cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/small-logos/logo-atlassian.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/small-logos/logo-invision.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/small-logos/logo-jira.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/small-logos/logo-slack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/small-logos/logo-spotify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/small-logos/logo-webdev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/small-logos/logo-xd.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/img/vr-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/js/core/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/js/core/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/js/plugins/Chart.extension.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/js/plugins/bootstrap-notify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/js/plugins/chartjs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/js/plugins/choices.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/js/plugins/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/js/plugins/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/js/plugins/smooth-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/js/soft-ui-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/js/soft-ui-dashboard.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/js/soft-ui-dashboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_backgrounds.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_breadcrumbs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_cards-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_components.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_dropdown-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_dropup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_fixed-plugin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_floating-elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_info-areas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_list-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_misc-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_navbar-vertical-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_navbar-vertical.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_popovers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_rtl-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_tilt.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_tooltips.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_utilities-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/badges/_badge-circle.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/badges/_badge-dot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/badges/_badge-floating.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/badges/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_containers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_offcanvas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/bootstrap-utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/forms/_floating-labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-control.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-range.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/forms/_validation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/helpers/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/helpers/_colored-links.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/helpers/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/helpers/_ratio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/helpers/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/helpers/_text-truncation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/helpers/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_color-scheme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_table-variants.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/mixins/_visually-hidden.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/utilities/_api.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/bootstrap/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/cards/card-background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/cards/card-blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/cards/card-horizontal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/cards/card-pricing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/cards/card-profile.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/custom/_styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/custom/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/forms/_form-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/forms/_form-select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/forms/_form-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/forms/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/forms/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/forms/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/forms/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/mixins/_colored-shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/mixins/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/mixins/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/free/_flatpickr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/free/_nouislider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/free/_perfect-scrollbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/free/_prism.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/free/plugins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_carousel-slick.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_choices.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_datatable-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_datatable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_dragula.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_dropzone.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_fullcalendar-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_fullcalendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_glidejs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_highlight.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_kanban.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_leaflet.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_list-check.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_photoswipe.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_quill.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_rating-widget.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_sweetalert2-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/_sweetalert2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/multi-step.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/plugins/pro/plugins-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/theme-pro.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_cards-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_choices.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_fixed-plugin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_form-switch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_full-calendar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_info-areas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_misc-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_navbar-vertical.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_social-buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_timeline.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_utilities-extend.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/assets/scss/soft-ui-dashboard/variables/_virtual-reality.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/docs/documentation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/media/soft-ui-dashboard-intro.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/media/soft-ui-dashboard-screen-billing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/media/soft-ui-dashboard-screen-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/media/soft-ui-dashboard-screen-profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/media/soft-ui-dashboard-screen-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/media/soft-ui-dashboard-screen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/pages/billing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/pages/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/pages/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/pages/rtl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/pages/sign-in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/pages/sign-up.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/pages/tables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/폐기/templates/html/soft/pages/virtual-reality.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1x78cI5ujgFeMs04EI3rjZfx6D4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rest_api" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\python\Python_Django_Mongo_Prac\rest_api" />
+      <recent name="C:\workspace\python\Python_Django_Mongo_Prac\web_prac\main" />
+      <recent name="C:\workspace\python\Python_Django_Mongo_Prac\pracDjango\base" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\python\Python_Django_Mongo_Prac\pracDjango\base" />
+      <recent name="C:\workspace\python\Python_Django_Mongo_Prac\pracDjango" />
+      <recent name="C:\workspace\python\Python_Django_Mongo_Prac\pracDjango\base\urls" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78846db8-cba7-4553-b7ff-2d66302cc460" name="Changes" comment="" />
+      <created>1629694845533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629694845533</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
